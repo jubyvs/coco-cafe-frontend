@@ -9,7 +9,7 @@ import Section4 from './section4';
 
 const Footer = () => {
     return(
-        <Bootstrap.Container className="footer" fluid>
+        <Bootstrap.Container className="footer p-3" fluid>
             <Section1 />
             <Section2 />
             <Section3 />

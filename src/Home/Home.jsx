@@ -8,8 +8,18 @@ const Home = () => {
     return(
 <React.Fragment>
     <NavigationTop />
-    <Bootstrap.Container className="pt-5 mt-5" fluid>
-        <h1>Hello</h1>
+    <Bootstrap.Container className="pt-5 mt-5 text-center text-dark home-container" fluid>
+        <Bootstrap.Row>
+            <Bootstrap.Col>
+                Column 1
+            </Bootstrap.Col>
+            <Bootstrap.Col>
+                Column 2
+            </Bootstrap.Col>
+            <Bootstrap.Col>
+                Column 3
+            </Bootstrap.Col>
+        </Bootstrap.Row>
     </Bootstrap.Container>
     <Footer />
 </React.Fragment>
