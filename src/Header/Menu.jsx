@@ -11,11 +11,11 @@ const Menu = () => {
                 <Bootstrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Bootstrap.Navbar.Collapse id="responsive-navbar-nav">
                     <Bootstrap.Nav className="me-auto">
-                        <Bootstrap.Nav.Link href="#home">Home</Bootstrap.Nav.Link>
-                        <Bootstrap.Nav.Link href="#menu">Menu</Bootstrap.Nav.Link>
-                        <Bootstrap.Nav.Link href="#delivery">Delivery</Bootstrap.Nav.Link>
-                        <Bootstrap.Nav.Link href="#about-us">About us</Bootstrap.Nav.Link>
-                        <Bootstrap.Nav.Link href="#contact-us">Contact us</Bootstrap.Nav.Link>
+                        <Bootstrap.Nav.Link href="/">Home</Bootstrap.Nav.Link>
+                        <Bootstrap.Nav.Link href="/menu">Menu</Bootstrap.Nav.Link>
+                        <Bootstrap.Nav.Link href="/delivery">Delivery</Bootstrap.Nav.Link>
+                        <Bootstrap.Nav.Link href="/about-us">About us</Bootstrap.Nav.Link>
+                        <Bootstrap.Nav.Link href="/contact-us">Contact us</Bootstrap.Nav.Link>
                     </Bootstrap.Nav>
                     <Bootstrap.Nav>
                         <SecondaryMenu />

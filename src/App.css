@@ -104,7 +104,7 @@
   justify-content: space-evenly;
 }
 
-/* Home */
-.home-container {
+/* COMMON */
+.main-container {
   font-size: var(--font-size--medium);
 }
