@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+/* Global Styles */
+:root {
+  --font-size--small: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
+  /* 14px */
+  --font-size--default: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+  /* 16px */
+  --font-size--medium: calc(18px + (20 - 18) * ((100vw - 300px) / (1600 - 300)));
+  /* 18px */
+  --font-size--large: calc(22px + (24 - 22) * ((100vw - 300px) / (1600 - 300)));
+  /* 24px */
+  --font-size--xlarge: calc(32px + (36 - 32) * ((100vw - 300px) / (1600 - 300)));
+  /* 32px */
+  --font-size--xxlarge: calc(35px + (40 - 35) * ((100vw - 300px) / (1600 - 300)));
+  /* 32px */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.not-found-wrapper {
+  background-image: url("./static/images/404.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.not-found-wrapper .btn-primary,
+.not-found-wrapper .btn-primary:hover,
+.not-found-wrapper .btn-primary:active,
+.not-found-wrapper .btn-primary:visited {
+  background-color: #7C5DA1;
+  background: #7C5DA1;
+  width: 10rem;
+  border-color: #7C5DA1;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: var(--font-size--small);
+  color: #f2f2f2;
+  border-radius: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.not-found-wrapper .btn-primary:hover,
+.not-found-wrapper .btn-primary:hover:hover,
+.not-found-wrapper .btn-primary:active:hover,
+.not-found-wrapper .btn-primary:visited:hover,
+.not-found-wrapper .btn-primary:visited,
+.not-found-wrapper .btn-primary:hover:visited,
+.not-found-wrapper .btn-primary:active:visited,
+.not-found-wrapper .btn-primary:visited:visited,
+.not-found-wrapper .btn-primary:active,
+.not-found-wrapper .btn-primary:hover:active,
+.not-found-wrapper .btn-primary:active:active,
+.not-found-wrapper .btn-primary:visited:active {
+  background-color: #936fbe;
 }
-
-.App-link {
-  color: #61dafb;
+.not-found-wrapper .btn-primary:focus,
+.not-found-wrapper .btn-primary:hover:focus,
+.not-found-wrapper .btn-primary:active:focus,
+.not-found-wrapper .btn-primary:visited:focus {
+  box-shadow: 0 0 0 0.2rem rgba(147 111 235 / 50%);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.not-found-wrapper .button-class {
+  position: absolute;
+  top: 48%;
+  left: 10%;
+}
+.not-found-wrapper .header-text {
+  position: absolute;
+  top: 23%;
+  left: 10%;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3rem;
+  color: #f2f2f2;
+  text-transform: lowercase;
+}
+.not-found-wrapper .header-text .subtext {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font-size--medium);
+  color: #f2f2f2;
+  text-transform: lowercase;
+  position: relative;
+  top: -20px;
 }
