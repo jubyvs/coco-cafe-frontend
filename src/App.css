@@ -92,3 +92,14 @@
   width: 1.1rem;
   height: 1.1rem;
 }
+
+/* Footer */
+.footer {
+  background-color:rgb(33,37,41);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
