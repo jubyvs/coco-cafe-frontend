@@ -1,1 +1,1 @@
-# restaurant-frontend
+# Coco coffee shop
