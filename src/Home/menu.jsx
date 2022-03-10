@@ -3,7 +3,7 @@ import * as Bootstrap from 'react-bootstrap';
 
 const Menu = () => {
     return(
-        <Bootstrap.Row xs={1} md={4} className="pb-5 g-5">
+        <Bootstrap.Row xs={1} md={4} className="home-menu g-5">
             {Array.from({ length: 8 }).map((_, idx) => (
                 <Bootstrap.Col>
                 <Bootstrap.Card>

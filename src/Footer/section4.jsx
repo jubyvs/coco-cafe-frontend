@@ -3,7 +3,12 @@ import React from 'react';
 const Section4 = () => {
     return(
         <React.Fragment>
-            <h1>Section 4</h1>
+            <span>
+                <h1 className="header-text">Brand Opportunities</h1>
+                <p className="body-text">Franchising</p>
+                <p className="body-text">Investors</p>
+                <p className="body-text">Contact Us</p>
+            </span>
         </React.Fragment>
     );
 }

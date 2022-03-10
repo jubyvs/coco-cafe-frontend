@@ -3,7 +3,7 @@ import * as Bootstrap from 'react-bootstrap';
 
 const Mission = () => {
     return(
-        <Bootstrap.Row xs={1} md={3} className="p-3 g-5">
+        <Bootstrap.Row xs={1} md={3} className="about-us-menu g-5">
             {Array.from({ length: 12 }).map((_, idx) => (
                 <Bootstrap.Col>
                 <Bootstrap.Card>
