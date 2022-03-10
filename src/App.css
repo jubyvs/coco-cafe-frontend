@@ -149,27 +149,10 @@ font-size: var(--font-size--large);
 .home-menu {
   padding-bottom: 10rem;
 }
-.menu-menu {
+.menu-menu, .delivery-menu,
+.about-us-menu, .contact-us-menu {
   padding-top: 1rem;
   padding-bottom: 7rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.delivery-menu{
-  padding-top: 1rem;
-  padding-bottom: 4rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.about-us-menu{
-  padding-top: 1rem;
-  padding-bottom: 4rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.contact-us-menu{
-  padding-top: 1rem;
-  padding-bottom: 4rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
