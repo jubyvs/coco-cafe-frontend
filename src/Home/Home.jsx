@@ -10,7 +10,7 @@ const Home = () => {
     return(
         <React.Fragment>
             <NavigationTop />
-            <Bootstrap.Container className="pt-5 mt-5 text-center text-dark main-container" fluid>
+            <Bootstrap.Container className="py-5 my-5 text-center text-dark main-container" fluid>
                 <ResponsiveCarousel />
                 <Menu />
             </Bootstrap.Container>

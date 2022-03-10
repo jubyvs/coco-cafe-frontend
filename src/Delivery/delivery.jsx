@@ -3,26 +3,27 @@ import React from 'react';
 
 import NavigationTop from '../Header/NavigationTop';
 import Footer from '../Footer/footer';
+import OrderSummary from './orderSummary';
 
 const Delivery = () => {
     return(
-<React.Fragment>
-    <NavigationTop />
-    <Bootstrap.Container className="pt-5 mt-5 text-center text-dark main-container" fluid>
-        <Bootstrap.Row>
-            <Bootstrap.Col>
-                Column 1
-            </Bootstrap.Col>
-            <Bootstrap.Col>
-                Column 2
-            </Bootstrap.Col>
-            <Bootstrap.Col>
-                Column 3
-            </Bootstrap.Col>
-        </Bootstrap.Row>
-    </Bootstrap.Container>
-    <Footer />
-</React.Fragment>
+    <React.Fragment>
+        <NavigationTop />
+        <Bootstrap.Container className="text-center text-dark main-container" fluid>
+            <Bootstrap.Row >
+                <Bootstrap.Col className="py-5 my-5">
+                    Column 1
+                </Bootstrap.Col>
+                <Bootstrap.Col md={{ span: 6 }}>
+                    <div className="border py-5 my-5 h-100"><OrderSummary /></div>
+                </Bootstrap.Col>
+                <Bootstrap.Col className="py-5 my-5">
+                    Column 3
+                </Bootstrap.Col>
+            </Bootstrap.Row>
+        </Bootstrap.Container>
+        <Footer />
+    </React.Fragment>
     );
 }
 
