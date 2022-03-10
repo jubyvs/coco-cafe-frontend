@@ -121,7 +121,7 @@ body {
 /* Footer */
 .footer {
   background-color:rgb(33,37,41);
-  position: relative;
+  position: fixed;
   bottom: 0px;
   left: 0px;
   color: #fff;
@@ -132,4 +132,9 @@ body {
 /* COMMON */
 .main-container {
   font-size: var(--font-size--medium);
+}
+
+/* MENU */
+.menu-container {
+  border: 29px solid #0000;
 }
